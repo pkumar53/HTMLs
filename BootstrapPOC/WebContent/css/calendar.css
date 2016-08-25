@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.dateDiv {
+	border: 1px solid #8b97a7;
+	float: left;
+	height: 25px;
+	text-align: center;
+	width: 25px;
+	padding-top: 4px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.dateDiv:hover {
+	background-color: #8b97a7;
+	cursor: pointer;
+}
+
+.dateDiv.inactive {
+	color: white;
+}
+
+.dateDiv.current {
+	background-color: #b3cfa4;
+}
+.dateDiv.selected {
+	background-color: #a1a1ae;
+}
+
+.dateDiv.inactive:hover {
+	background-color: #dccdff;
+	cursor: default;
+}
+
+.day {
+	background-color: #acc9d8;
+}
+
+.day:hover {
+	background-color: #acc9d8;
+	cursor: default;
+}
+
+.monthDiv {
+	border: 1px solid lightgray;
+	height: 100%;
+}
+
+.monthName {
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	width: 110px;
+	text-align: center;
+	margin: 2px;
+	background-color: #dccdff;
+}
+
+.yearName {
+	font-size: 11px;
+	font-weight: bold;
+	height: 25px;
+	width: 52px;
+	text-align: center;
+	background-color: #dccdff;
+}
+
+.close {
+	font-size: 7px;
+	padding-left: 165px;
+}
+
+#dayDateDiv {
+	min-height: 125px;
+	overflow: hidden;
+}
+
+#monthYearDiv {
+	height: 40px;
+}
+
+#calendarBox {
+	border: 1px solid lightgray;
+	margin: 2px;
+	border-radius: 2px;
+	background-color: #dccdff;
+}
+
+#calendar {
+	min-height: 173px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	width: 183px;
+	display: none;
+	overflow: hidden;
+}
