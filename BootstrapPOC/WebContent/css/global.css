@@ -4,9 +4,46 @@
 	color: white;
 }
 
+.w50px {
+	width: 50px;
+}
+
+.w100px {
+	width: 100px;
+}
+
+.h100px {
+	height: 100px;
+}
+
+.mt2px {
+	margin-top: 2px;
+}
+
+.mt100px {
+	margin-top: 100px;
+}
+
+.h33px {
+	height: 33px;
+}
+
+.txtcen {
+	text-align: center;
+}
+
+.p10px {
+	padding: 10px;
+}
+
 .nopadding {
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.padtopbtm15px {
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 ul {
@@ -16,33 +53,21 @@ ul {
 li.li {
 	padding: 5px 10px;
 	border-radius: 2px;
-	border: 1px thin black;
 	color: white;
-}
-
-li.li:hover {
-	border: 1px thin black;
-	color: grey;
-	background-color: white;
 	cursor: pointer;
 }
 
-.headerRow {
+li.li:hover {
+	color: grey;
+	background-color: white;
+}
+
+.bor1pxsol {
 	border: 1px solid;
-	height: 250px;
 }
 
 .headingDiv {
-	height: 100%;
-}
-
-.headingDiv h1 {
-	position: absolute;
-	top: 40%;
-	left: 10%;
-	right: 10%;
-	bottom: 10%;
-	text-align: center;
+	margin: 20% 0;
 }
 
 .sectionDiv {
@@ -56,29 +81,62 @@ li.li:hover {
 	text-align: center;
 }
 
-.sectionHeading h3 {
+.sectionHeading>h3 {
 	color: grey;
 }
 
 .sectionContent {
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-footer div.row {
-	border: 1px solid;
+	color: grey;
+	text-align: justify;
 }
 
 .menuIcon {
-	margin: 0 auto;
-	text-align: center;
-	border-radius: 5px;
-	cursor: pointer;
-	width: 35px;
-	height: 30px;
-	padding-top: 5px;
+	background-color: transparent;
+	margin-right: 10px;
+	float: right;
+}
+
+.menuIcon:focus {
+	background-color: transparent;
 }
 
 .menuIcon:hover {
 	background-color: #dedede;
+}
+
+.menuDivXS {
+	display: none;
+	background: rgba(232, 231, 225, 0.6);
+}
+
+.menu {
+	border: 1px solid rgba(231, 232, 225, 0.921569);
+	border-bottom-width: 0;
+}
+
+.secSubSectionImg>img {
+	margin: 0 auto;
+	display: block;
+}
+
+.secSubSectionCon {
+	font-size: 12px;
+}
+
+.textContent {
+	margin: 40px auto;
+	text-align: justify;
+}
+
+.footerRow {
+	margin: 40px 0;
+}
+
+.footerColumn {
+	border-right: 1px dashed;
+	border-left: 1px dashed;
+}
+
+.footerColumn>a {
+	color: white;
 }
